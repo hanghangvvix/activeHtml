@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(../img/top_.jpg) center center repeat;
+	color: #fff
+}
+
+.zp-box {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.dp-box {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 0vw;
+	margin-bottom: 0vw;
+}
+
+.dp-box>img {
+	width: 100%
+}
+
+/* */
+.g-lottery-img {
+	margin-top: -2vw;
+}
+
+.dp-box-input-div {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+	text-align: center;
+}
+
+.dp-box-input-div>input {
+	width: 78%
+}
+
+.zp-box-input-div {
+	background: url(../img/btn_img_bg.jpg) center center repeat;
+	background-size: 100%;
+	margin-top: -2vw;
+}
+
+input::-webkit-input-placeholder {
+	/* placeholder颜色  */
+	color: #ee853c;
+	/* placeholder字体大小  */
+	font-size: 6vw;
+	/* placeholder位置  */
+	text-align: center;
+}
+
+input:-moz-placeholder {
+	/* placeholder颜色  */
+	color: #ee853c;
+	/* placeholder字体大小  */
+	font-size: 6vw;
+	/* placeholder位置  */
+	text-align: center;
+}
+
+input::-moz-placeholder {
+	/* placeholder颜色  */
+	color: #ee853c;
+	/* placeholder字体大小  */
+	font-size: 6vw;
+	/* placeholder位置  */
+	text-align: center;
+}
+
+input:-ms-input-placeholder {
+	/* placeholder颜色  */
+	color: #ee853c;
+	/* placeholder字体大小  */
+	font-size: 6vw;
+	/* placeholder位置  */
+	text-align: center;
+}
+
+input {
+	padding: 3.5vw 0 3.5vw 0;
+	border: none;
+	background: url(../img/btn_img.jpg) no-repeat center center;
+	outline: none;
+	background-size: 100% 100%;
+	text-align: center;
+	font-size: 6vw;
+	color: #ee853c;
+}
+
+.dp-box-btn-div {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+	text-align: center;
+}
+
+.dp-box-btn-div>button, .dp-box-btn-div>img {
+	width: 78%
+}
+
+.zp-box-btn-div {
+	background: url(../img/btn_img_bg_s.jpg) center center repeat;
+	background-size: 100%;
+	margin-top: -2vw;
+}
+
+button {
+	padding: 7.5vw 0 7.5vw 0;
+	border: none;
+	background: url(../img/btn_sub.jpg) no-repeat center center;
+	outline: none;
+	background-size: 100% 100%;
+}
+
+.zz {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 500;
+	top: 0px;
+	background: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+
+.jl-tk {
+	width: 80%;
+	height: auto;
+	position: fixed;
+	z-index: 600;
+	top: 22%;
+	left: 10%;
+	display: none;
+}
+
+@media screen and (max-width: 320px) { /* 设置中奖纪录iphone5的高度 */
+	ul {
+		height: 160px
+	}
+}
+
+.zj-img {
+	position: relative;
+	width: 100%
+}
+
+.ok-img {
+	position: absolute;
+	width: 60%;
+	bottom: 5vw;
+	left: 25%
+}
+
+.texts {
+	position: absolute;
+	width: 66%;
+	top: 27vw;
+	left: 18%;
+	/* text-align: center; */
+	color: #fff;
+	line-height: 1.2;
+	/* font-weight: bold; */
+	font-size: 3.5vw
+}
